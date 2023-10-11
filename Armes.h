@@ -16,5 +16,5 @@ public :
     void afficher() const;
     int getpuissance() const;
 };
-#include "Arme.cpp"
+#include "Armes.cpp"
 #endif
