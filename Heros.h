@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include "Arme.h"
+#include "Armes.h"
 
 class Heros
 {

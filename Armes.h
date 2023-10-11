@@ -1,5 +1,5 @@
-#ifndef Arme_h
-#define Arme_h
+#ifndef Armes_h
+#define Armes_h
 
 #include <iostream>
 #include <string>
