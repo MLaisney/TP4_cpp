@@ -10,7 +10,7 @@ void Heros::diminuervie(int vieenmoins)
 }
 void Heros::attaquer(Heros &cible)
 {
-    cout<<m_nomheros<< "attaque "<< cible.m_nomheros <<endl;
+    cout<<m_nomheros<< " attaque "<< cible.m_nomheros <<endl;
     cible.diminuervie(m_arme.getpuissance());
 }
 void Heros::changerarme(string nomnouvellearme, int puissancenouvellearme)
@@ -34,11 +34,11 @@ void Heros::afficher() const
     m_arme.afficher();
     if (vivant() == true)
     {
-        cout<<" Heros Vivant"<< endl;
+        cout<<" Heros Vivant "<< endl;
     }
     else
     {
-        cout<<"Heros Mort"<<endl;
+        cout<<" Heros Mort "<<endl;
     }
     cout<<"--------------------------"<<endl;
 }

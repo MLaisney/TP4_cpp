@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Arme::Arme() : m_nomarme("Sans Arme"),m_puissancearme(0) {}
+Arme::Arme() : m_nomarme(" Sans Arme "),m_puissancearme(0) {}
 
 Arme::Arme(string nomarme, int puissancearme) : m_nomarme(nomarme), m_puissancearme(puissancearme) {}
 
